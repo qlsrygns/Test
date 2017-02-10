@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <Features xmlns="http://www.w3.org/2001/XMLSchema"  xmlns:gml="http://www.opengis.net/gml"  targetNamespace="http://www.opengis.net/gml" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.1.1.2">
+        <gml:boundedBy>
+            <gml:Box>
+
+                <gml:coord>
+                    <gml:X>8.00000000000000</gml:X>
+                    <gml:Y>52.0000000000000</gml:Y>>
+                </gml:coord>
+
+            </gml:Box>
+        </gml:boundedBy>
+
+        <gml:featureMember>
+            <complexPoly>
+                <_SHAPE_>
+                    <gml:MultiPolygon srsName = 'epsg:23032'>
+                        <gml:polygonMember>
+                            <gml:Polygon>
+                                <gml:outerBoundaryIs>
+                                    <gml:LinearRing>
+                                        <gml:coordinates>8,52 16,52 16,60 8,60 8,52 </gml:coordinates>
+                                    </gml:LinearRing>
+                                </gml:outerBoundaryIs>
+                                <gml:innerBoundaryIs>
+                                    <gml:LinearRing>
+                                        <gml:coordinates>9,53 9,59 15,59 15,53 9,53 </gml:coordinates>
+                                    </gml:LinearRing>
+                                </gml:innerBoundaryIs>
+                            </gml:Polygon>
+                        </gml:polygonMember>
+
+
+
+                    </gml:MultiPolygon>
+                </_SHAPE_>
+            </complexPoly>
+        </gml:featureMember>
+    </Features>
+</resources>
